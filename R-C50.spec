@@ -4,7 +4,7 @@
 #
 Name     : R-C50
 Version  : 0.1.5
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/C50_0.1.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/C50_0.1.5.tar.gz
 Summary  : C5.0 Decision Trees and Rule-Based Models
@@ -37,10 +37,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1640904471
+export SOURCE_DATE_EPOCH=1640985842
 
 %install
-export SOURCE_DATE_EPOCH=1640904471
+export SOURCE_DATE_EPOCH=1640985842
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
