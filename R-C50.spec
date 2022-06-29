@@ -4,7 +4,7 @@
 #
 Name     : R-C50
 Version  : 0.1.6
-Release  : 7
+Release  : 8
 URL      : https://cran.r-project.org/src/contrib/C50_0.1.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/C50_0.1.6.tar.gz
 Summary  : C5.0 Decision Trees and Rule-Based Models
