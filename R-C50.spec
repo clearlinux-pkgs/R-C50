@@ -4,7 +4,7 @@
 #
 Name     : R-C50
 Version  : 0.1.8
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/C50_0.1.8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/C50_0.1.8.tar.gz
 Summary  : C5.0 Decision Trees and Rule-Based Models
@@ -16,9 +16,6 @@ Requires: R-partykit
 BuildRequires : R-Cubist
 BuildRequires : R-partykit
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 recognition that extend the work of Quinlan (1993,
@@ -40,10 +37,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1675898533
+export SOURCE_DATE_EPOCH=1678811731
 
 %install
-export SOURCE_DATE_EPOCH=1675898533
+export SOURCE_DATE_EPOCH=1678811731
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
