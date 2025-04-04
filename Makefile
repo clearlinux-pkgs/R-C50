@@ -1,5 +1,5 @@
 PKG_NAME := R-C50
-URL = https://cran.r-project.org/src/contrib/C50_0.1.8.tar.gz
+URL = https://ftp.osuosl.org/pub/cran/src/contrib/C50_0.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
